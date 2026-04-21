@@ -787,14 +787,6 @@ async function ensureEquipmentLoaded(req) {
   const equipmentOptions = await loadAllEquipment(req, s360Client);
   req.session.equipmentOptions = equipmentOptions;
 
-  const filters = getDashboardFilters(req);
-  if (!filters.equipmentId && equipmentOptions[0]?.id) {
-    req.session.dashboardFilters = {
-      ...filters,
-      equipmentId: equipmentOptions[0].id,
-    };
-  }
-
   return equipmentOptions;
 }
 
@@ -1139,12 +1131,12 @@ app.post("/s360/connect", requireAuth, async (req, res) => {
 
     const filters = getDashboardFilters(req);
     if (
-      !filters.equipmentId ||
+      filters.equipmentId &&
       !equipmentOptions.some((item) => item.id === String(filters.equipmentId))
     ) {
       req.session.dashboardFilters = {
         ...filters,
-        equipmentId: equipmentOptions[0]?.id || "",
+        equipmentId: "",
       };
     }
 
