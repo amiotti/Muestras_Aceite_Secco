@@ -2,12 +2,6 @@
 const express = require("express");
 const session = require("express-session");
 const { appConfig, s360Config } = require("./config");
-const { findUserByEmail, createUser, normalizeEmail } = require("./db");
-const {
-  validatePasswordStrength,
-  hashPassword,
-  passwordMatches,
-} = require("./auth");
 const { S360Client, ApiError } = require("./s360");
 
 const app = express();
@@ -1255,8 +1249,12 @@ app.get("/samples/:sampleNumber/pdf", requireAuth, async (req, res) => {
   }
 });
 
-app.listen(appConfig.port, () => {
-  console.log(
-    `Servidor iniciado en http://localhost:${appConfig.port} (base S360: ${s360Config.defaultBaseUrl})`
-  );
-});
+if (!process.env.VERCEL) {
+  app.listen(appConfig.port, () => {
+    console.log(
+      `Servidor iniciado en http://localhost:${appConfig.port} (base S360: ${s360Config.defaultBaseUrl})`
+    );
+  });
+}
+
+module.exports = app;
