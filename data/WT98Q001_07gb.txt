@@ -1,0 +1,559 @@
+
+
+===== PAGE 1 =====
+ 
+ 
+Wärtsilä Finland Oy Tel: +358 10 709 0000 www.wartsila.com 
+P.O. Box 244 (Teollisuuskatu 1)   
+FI-65101 Vaasa 
+INSTRUCTIONS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+For your information 
+Engines concerned 
+Following 4 -stroke engines  running on 
+Heavy Fuel Oil (HFO) or Light Fuel Oil 
+(LFO): 
+• WÄRTSILÄ® Vasa 32, 32GD, 32LN, 
+32LNGD 
+• WÄRTSILÄ® 20, 20DF 
+• WÄRTSILÄ® 25, 25DF 
+• WÄRTSILÄ® 31, 31DF 
+• WÄRTSILÄ® 32, 32DF, 32GD 
+• WÄRTSILÄ® 34DF 
+• WÄRTSILÄ® 46, 46GD,  
+• WÄRTSILÄ® 46F, 46FDF  
+• WÄRTSILÄ® 46TS, 46TS-DF 
+• WÄRTSILÄ® 50, 50DF 
+Reference  
+18 Lubricating oil system 
+10.3 Lubricating oil system 
+Introduction  
+These instructions are intended as a guide 
+for analysing and following up procedures 
+for the lubricating oil, in order to keep the 
+oil condition at satisfactory levels, from the 
+engines point of view. 
+The purpose is to increase the availability 
+and reliability of the engines and avoid 
+unnecessary wear and possible failures 
+due to use of inferior quality lubricating 
+oils. 
+Validity  
+Until further notice. Replacing issue 6 dated 
+23 March 2023. 
+ 
+Before taking any action, always check the available 
+online systems for the latest revision of this document. 
+Any locally stored or printed version is considered to 
+be an uncontrolled document. 
+Issue 7, 23 July 2024 
+Lubricating oil analysing and 
+quality follow-up 
+ Distribution to operators and owners of installations 
+concerned 
+ 
+WT98Q001 4-Stroke Engines 
+Technical Services 
+
+===== PAGE 2 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 2 / 9 
+Document history 
+Issue Date Description 
+1 27-03-2003 Initial release 
+2 21-08-2003 Engine types added 
+3 16-10-2003 Text updated 
+4 27-09-2012 Engine types specified, text updated 
+5 17-05-2016 Wärtsilä 31 added 
+6 09-03-2023 • “Lubricating oil maintenance recommendations” on page 6 added  
+• Wärtsilä 46TS and 34DF added.  
+7 23-07-2024 Wärtsilä 25 added  
+Introduction 
+The lubricating oil in a modern diesel engine has a variety of different functions, of which 
+the most important in addition to lubrication are to: 
+• Reduce friction. 
+• Prevent metal to metal contact. 
+• Prevent corrosion. 
+• Act as a cooling media. 
+• Improve engine cleanliness. 
+• Act as a sealing media. 
+These instructions are intended as a guide for analysing and following up procedures for 
+the lubricating oil, in order to keep the oil condition at satisfactory levels, from the engines 
+point of view. Deteriorated physical and chemical properties may have significant effect 
+on the performance of the lubricating oil in the above listed functions, resulting in 
+considerably decreased component service lifetimes, increased risk of failures, etc. 
+negative consequences for the operating of the engine. 
+Recommendation 
+Table 1 on page 3  presents a summary of the condemning limits and recommended 
+levels for optimum performance for used lubricating oils, along with the main impacts on 
+the engine performance.  
+Typical wear elemental contents for WÄRTSILÄ ® medium speed d iesel engines are 
+presented in T able 2 on page 7. Each of the properties listed in these tables are also 
+discussed in more detail in the chapters below. 
+Sampling 
+The lubricating oil samples are to be taken from circulating oil with the engine in 
+operation. The sample should be taken after the separation and filtration of the oil, before 
+the engine. It is recommended to take lubricating oil samples before adding (topping up) 
+new oil to the system. Use clean sample bottles and rinse the sampling line properly 
+before taking the sample, a suitable sample amount is 0.75 - 1 litres. The background 
+data needed for evaluating the analysis results should always be provided w ith an oil 
+sample, use for example the document WT98V001 Oil analysis application.  
+During the first year of operation lubricating oil samples are to be taken at intervals of 
+500 operating hours and analysed. Frequent lubricating oil sampling and analysing every 
+500 - 1000 hours is also recommendable after the first year of operation. 
+
+===== PAGE 3 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 3 / 9 
+Analysis 
+The lubricating oil samples should be analysed for example by the oil supplier or by some 
+other recognised oil analysis laboratory. The preferred analysis methods are specified in 
+Table 1. 
+Table 1, Summary of the most important lubricating oil properties 
+Property Impacts on engine function Condemning limit Recommended level for 
+optimum performance 
+Base Number (BN) 
+(mg KOH / g)  
+ASTM D 2896 
+Prevents corrosion. 
+ 
+Min. 20 (HFO operation).  
+Max. 50% depletion from 
+fresh oil level (LFO 
+operation). 
+Min. 25 (HFO operation).  
+Max. 40% depletion from 
+fresh oil level (LFO 
+operation). 
+Viscosity 
+(cSt, at 100C) 
+ASTM D 445 
+Provides hydrodynamic lubrication 
+for bearings, etc. 
+Reduces friction and thus fuel oil 
+consumption. 
+Max. –20% or +25% from 
+fresh oil levels, at 100C. 
+Max. –25% or +45% from 
+fresh oil levels, at 40C. 
+Max. 15% from fresh oil 
+levels, at 100C. 
+Max.  25% from fresh oil 
+levels, at 40C. 
+Water 
+(vol-%) or (w-%) 
+ASTM D 95 or 
+D 6304C 
+Introduces corrosion. 
+Deteriorates the hydrodynamic 
+properties of the oil. 
+Affects additive function. 
+Max 0.3 vol-% / w-%. Max 0.3 vol-% / w-%. 
+Insolubles 
+(w-%) 
+ASTM D 893b 
+Deteriorates the hydrodynamic 
+properties of the oil. 
+Affects additive function. 
+Max. 2.0 w-%, as 
+n-pentane insolubles. 
+Max. 1.0 w-%, as 
+n-pentane insolubles. 
+Flash point 
+(C) 
+ASTM D 92 or D 93 
+Risk of crankcase explosion. Min. 170C (PMCC) 
+Min. 190C (COC) 
+Min. 170C (PMCC) 
+Min. 190C (COC) 
+Base number, BN (Total Base Number) 
+Base number is a measure of the alkalinity of lubricating oil, expressed in mg KOH/g oil. 
+The sulphur level in the fuel oil used determines the required degree of alkalinity of 
+lubricating oil. The fuel sulphur is during the combustion process converted into acidic 
+combustion products, mainly sulphur oxides. These acidic compounds will attack  the 
+combustion space and other engine components unless neutralised.  
+Too low base number levels in lubricating oil will lead to acidic corrosion, increased 
+engine wear, reduced component lifetime and thus increased maintenance costs. Too 
+high base number may, theoretically lead to an increased risk of excessive deposit 
+formations, but with modern lubricating oils and engines this is however a very rarely met 
+problem. 
+It is recommended to use BN 50 - 55 oils when operating on HFO with sulphur levels  
+> 2 w-%, especially for engines with wet sump. BN 30 oils are recommended only for 
+special applications, for example for installations equipped with SCR units, where high 
+BN oils could contribute to deposit formations in the catalyst layers. 
+Typically the BN of lubricating oil drops quite fast in the beginning but gradually levels 
+out towards an equilibrium level. The minimum allowed BN level for HFO operation is 20 
+and for LFO engines 50% depletion from fresh oil levels. 
+The recommended minimum BN level for optimum performance  of the lubricating oil in 
+the engine is 25 for HFO operation  and 40% depletion from fresh oil levels for LFO 
+operation. 
+
+===== PAGE 4 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 4 / 9 
+Viscosity 
+Viscosity is the property of a fluid that causes flow resistance. The viscosity of oils is 
+dependent on temperature, pressure, and shear rate. Viscosity is one of the most 
+significant properties for establishing the thickness, pressure, and temperature of an oil 
+film in lubrication. Oil film thickness increases with viscosity, as does the fluids friction 
+and consequential power loss. Viscosity is also a significant factor in predicting the 
+performance and fatigue life of bearings and gears.  
+The official SI unit of kinematic viscosity is m2/s, but cSt (centistoke) is still commonly 
+used for expressing lubricating oil viscosity. 1 cSt = 10 -6 m2/s (= 1 mm2/s).  
+Typical viscosity for a fresh SAE 40 grade lubricating oil is 13.5 – 15.0 cSt (at 100 °C) 
+and 135 – 150 cSt (at 40 °C). 
+Viscosity Index (VI) is a commonly used expression of an oils change of viscosity with 
+temperature. The higher the viscosity index the smaller the relative change in viscosity 
+with temperature. Most medium speed diesel engine oils have a VI between 95 and 110. 
+Typically the viscosity of lubricating oils could be expected to increase gradually during 
+operation, due to oxidation and polymerisation of the lubricating oil compounds, increase 
+of solid contents in the oil, etc. Possible reasons for unexpected viscosit y decreases 
+could be for example LFO contamination of the lubricating oil. 
+The lubricating oil condemning limits for WÄRTSILÄ® medium speed diesel engines for 
+the viscosity are: 
+• Max. – 20% decrease or + 25% increase from fresh oil levels, at 100 °C. 
+• Max. – 25% decrease or + 45% increase from fresh oil levels, at 40 °C.  
+The recommended viscosity changes for optimum performance  of the lubricating oil in 
+the engine are: 
+• Max. ± 15% from fresh oil levels, at 100 °C. 
+• Max. ± 25% increase from fresh oil levels, at 40 °C. 
+Water 
+Water in oil is detrimental to lubrication, both physically and chemically. Water is slightly 
+soluble in base oils and slightly more soluble (a few hundred ppm) in formulated oils. 
+Generally the solubility of water in lubricating oils is however, due to the polar 
+characteristics of the water molecule, low. If increased amounts of water molecules are 
+present the oil gets saturated and free water appears. Hazy oil  is most often a result of 
+not dissolved water droplets.  
+Water corrodes many common tribological metals and may thus also contribute to 
+various forms of corrosive and cavitation damages on bearing surfaces. Bearings 
+consisting mostly of lead and tin are quite easily oxidised in the presence of water and 
+oxygen. Corrosion products may also contribute to the solid debris in the oil and pit 
+formation in the metal surfaces. Another indication of water contamination in lubricating 
+oils may be increased sodium and chlorine contents, especially in marine applications.  
+Water also catalyses oil oxidation and acid formation and may react with or precipitate 
+the oil additive compounds, the base oil and with suspended contaminants. The effects 
+of all these reactions are undesirable by -products such as varnish, lacquer, sludg e, 
+organic and inorganic acids, surface deposits and lubricant thickening (polymerisation). 
+These reaction products also consume the oxidation inhibitors of the lubricating oil.  
+  
+
+===== PAGE 5 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 5 / 9 
+Observe that some water analysis methods may result in higher values than the 
+recommended distillation (ASTM D 95) method. For example IR (Infrared spectroscopy) 
+methods used by some laboratories, especially for so called "fast analyses", have 
+typically be en found to result in slightly higher (~0.1 – 0.2 vol -%) levels than the 
+distillation method. A simple test for water in oil is the "crackle test", where a drop of oil 
+is placed onto a hot surface, if it crackles and sputters too high quantities of water m ay 
+be present in the oil. 
+The maximum allowed water content in the engine lubricating oil is 0.3 vol-% (or weight-
+%). 
+Insolubles 
+Hard solid particles, which may be present in lubricating oil systems are for example 
+shop debris such as welding or grinding splatter (in new systems), sand, clay, etc. earth 
+materials and wear fragments. If their size is close to the oil film thickness, they may 
+embed or abrade surfaces, thus reducing component lifetime. Abrasion can be detected 
+on a worn part by observation of parallel scratches in the direction of sliding or by 
+microchips and abrasive particles presence in the used oil.  
+Semi-solid contaminants are generally oxidation and/or thermal polymerisation products, 
+carbonaceous material, microorganisms and oil/ additive/water reaction products, etc. In 
+lubricated systems, these and other small particulates contribute to sludge, wh ich 
+collects and plugs pipes, pumps and orifices possibly resulting in too low oil flow. If there 
+are oxidation products present, they can be measured by an increase in TAN, pentane- 
+and toluene insolubles, IR spectrums and the amount of filter residue.  
+TAN tests and filter residues do not necessarily measure the actual lubricant degradation 
+products, but rather the presence of a semi -solid materials, and the evaluator has to 
+make a judgement on the source. 
+The maximum allowed insolubles level is 2.0 w-% (as n-pentane insolubles).  
+The recommended insolubles level for optimum performance of the lubricating oil in the 
+engine is < 1.0 w-% (as n-pentane insolubles). 
+Flash point 
+The flash point analysis is mainly a safety concern. A low flash point indicates presence 
+of light, easily evaporating hydrocarbon compounds in the lubricating oil. This increases 
+the risk of crankcase explosions and engine failures. 
+The minimum allowed flash point is 170 °C for the Pensky-Martens closed cup (PMCC) 
+analysis method and 190 °C for the Cleveland open cup (COC) analysis method. 
+ 
+  
+
+===== PAGE 6 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 6 / 9 
+Lubricating oil maintenance recommendations. 
+In practice many lubricating oil properties are showing exponential behaviour for different 
+properties as function of oil operating hours, so that the change is faster in the beginning 
+and then its levelling out towards an equilibrium level. See for exampl e schematic 
+example for BN depletion in figure 1 below.  
+Figure 1. Typical examples for BN depletion, for different conditions.   
+ 
+Main factors affecting the different properties depletion rate are for example specific 
+lubricating oil consumption, specific lubricating oil volume, fuel quality (sulphur, ash, 
+MCR, etc.) and lubricating oil base oil & additives package. Additionally ther e are 
+numerous other engine operating, ambient condition and lubricating oil specific factors 
+that affect the practical depletion rates. Thus it is not possible to calculate or predict any 
+general lubricating oil depletion rates, but these have to be check ed and verified by 
+frequent enough and engine specific lubricating oil analyses. A good target is to maintain 
+lubricating oil properties according to “Recommended level for optimum performance” 
+levels presented in table 1.     
+When operating on bad quality HFO (HFO 2 in fuel specifications) experience tells that 
+a specific lubricating oil consumption of 0.5 g/kWh, calculated based on MCR (max 
+continuous rating), or higher is typically needed in order to keep the lubricating oil in good 
+condition.  
+Elemental analysis 
+Elements are here divided into four groups according to their origin. However, note that 
+some elements belong to several groups and that different construction materials may 
+be used in different engine types, i.e. component specifications should be checked  in 
+each case, before making any detailed conclusions. 
+1. Wear metals 
+The most common wear metals in lubricating oil analyses are iron (Fe), chromium 
+(Cr), lead (Pb), copper (Cu) and tin (Sn). In the engine components there can also be 
+smaller amounts of aluminium (Al), molybdenum (Mo), nickel (Ni) and antimony (Sb) 
+present. 
+The iron content in lubricating oils reflects mainly piston and cylinder liner wear. Fresh 
+oil may also contain a small amount (< 15 ppm)  of iron, originating from transfer 
+pipelines or tanks, if the oil is not delivered as a bulk. Note that iron may also be used 
+as an additive in some lubricating oil formulations. 
+The chromium content in lubricating oils indicates mainly piston ring wear. 
+
+
+===== PAGE 7 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 7 / 9 
+Lead can be present in the overlays of gudgeon pin bearing bushings, camshaft 
+bearings, bearing bushing for camshaft end and thrust washer.  
+Copper can enter the lubricating oil from lubricating oil pump bearings, bronze 
+bearings of rocker arms, roller pins for tappets and gudgeon pin bearing bushings. If 
+the Cu content is abnormally high (> 10 - 15 ppm), the reason is probably presence 
+of exhaust gas in the inlet air, for example due to exhaust gas leakage, recirculation 
+or from external sources. If there are exhaust gases present in the inlet air, the sulphur 
+compounds from the exhaust gases will gradu ally corrode the charge air cooler 
+material, which contains copper. The copper will then enter the lubricant via the 
+combustion space and blow -by gases to the crankcase. In these cases, the Cu 
+content of the lubricating oil can be even as high as 30 - 50 ppm. 
+Possible sources for tin are big end bearings, main bearings, gudgeon pin bearing 
+bushings, camshaft bearings, bearing bushing of camshaft end and thrust washer.  
+The most probable source for aluminium and nickel is the fuel (HFO), but (Al + Si) 
+may also enter the lubricating oil from engine parts. 
+2. Fuel oil originating elements 
+The source of vanadium (V) and nickel (Ni) is normally HFO. There may also be small 
+amounts of these elements present in LFO. The lubricating oil vanadium and nickel 
+contents normally achieve an equilibrium, which are 1 - 2 times the V and Ni contents 
+of the fuel. 
+The source of aluminium (Al) and silicon (Si) is normally HFO. Oil refineries equipped 
+with a fluid catalytic cracker (FCC) unit use zeolites (aluminium and silicon 
+compounds) as catalysts. Occasionally some catalyst rests ("cat fines" = Al + Si), can 
+be present in fuels and thus enter the lubricating oil during operation. Silicon is also 
+typically used as an antifoaming component in lubricating oils. 
+The source of sodium (Na) is normally HFO, but presence of sodium can also indicate 
+sea water leakage, through the central coolers or water leakage in the closed cooling 
+water system. The most commonly used cooling water additives are sodium nitrite + 
+sodium borate and sodium molybdate based products. 
+3. Water originating elements 
+Sodium, see above. 
+4. Lubricating oil additives 
+Calcium (Ca), phosphorus (P) and zinc (Zn) are normally used in lubricating oil 
+additive packages. The calcium content is depending on the BN, the higher the BN 
+the higher the Ca content. For example, a BN 30 oil contains Ca ~ 1.0 – 1.1 w-% and 
+high BN (50 - 55) oils contain Ca ~ 1.8 – 2.0 w-%.  
+The phosphorus and zinc contents are depending on the additive chemistry used in 
+each specific case and can vary significantly. In most lubricating oils used in the 
+WÄRTSILÄ® medium-speed diesel engines the P content of the fresh oil is 200 - 1000 
+ppm and the Zn content 200 - 1100 ppm. In used lubricating oils these values can be 
+somewhat lower. 
+Silicon, see above. 
+  
+
+===== PAGE 8 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 8 / 9 
+Typical elemental contents in used oils 
+Table 2 presents the typical contents of different elements in used lubricating oils, 
+recorded from both HFO and LFO operated engines. The table also shows guidance 
+values for what can be considered abnormal levels for different elements in used oils. 
+The limits in Table 2 should be kept as guidelines only. Elemental concentrations above 
+the abnormal levels call for attention and indicate that something abnormal is obviously 
+happening in the engine or in the lubricating oil system. An engine inspection is worth to 
+consider especially if the values being abo ve the abnormal levels show a continuously 
+increasing trend.  
+It should be noted that typical elemental concentrations may be slightly different for 
+different engine types. Differences can also be found depending on engine application 
+(power plant, main engine, auxiliary engine, etc.). The fuel quality and the fuel elemental 
+composition also influence on the concentration of fuel originated elements in used 
+lubricating oils. 
+Table 2, Typical and abnormal contents of different elements in used lubricating oils  
+Element Unit HFO,  
+Typical values 
+HFO,  
+Abnormal level 
+LFO,  
+Typical values 
+LFO, 
+Abnormal level 
+Iron, Fe ppm 10 - 40 > 50 5 - 15 > 25 
+Chromium, Cr ppm 0 - 3 > 5 0 - 3 > 5 
+Tin, Sn ppm 0 - 3 > 5 0 - 3 > 5 
+Lead, Pb ppm 0 - 3 > 5 0 - 3 > 5 
+Copper, Cu ppm 0 - 5 > 10 0 - 3 > 5 
+Silicon, Si ppm 10 - 40 < 5 or > 50 1 - 15 > 20 
+Sodium, Na ppm 10 - 50 > 100 0 - 10 > 20 
+Aluminium, Al ppm 0 - 10 > 20 0 - 5 > 10 
+Vanadium, V ppm 1 - 2 * fuel V > 2 * fuel V 0 - 3 > 5 
+Nickel, Ni ppm 1 - 2 * fuel Ni > 2 * fuel Ni 0 - 3 > 5 
+Changing of lubricating oil brand 
+Top-up with another lubricating oil brand than being filled to the system is not allowed, 
+except if the two lubricating oils originate from the same manufacturer. E.g. if company 
+A’s BN 40 oil is filled into the oil system and top-up with same company A’s BN 50 oil is 
+desired, that can be done provided that both products are based on same base oils and 
+additive technology. Otherwise, the lubricating oil system must be drained and then filled 
+with another brand by following the procedure described here below. 
+In order to minimize the risk of lubricating oil foaming, deposit formation, blocking of 
+lubricating oil filters, damage of engine components, etc., the following procedure should 
+be followed when lubricating oil brand is changed from one to another:  
+• If possible, change the lubricating oil brand in connection with an engine (piston) 
+overhaul. 
+• Drain the old lubricating oil from the lubricating oil system. 
+• Clean the lubricating oil system in case of an excessive amounts of deposits on the 
+surfaces of the engine components, like crankcase, camshaft compartment, etc. 
+• Fill the lubricating oil system with fresh lubricating oil. 
+
+===== PAGE 9 =====
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved – Please read the complete disclaimer at the end of this document.  
+  
+INSTRUCTIONS 
+ 
+WT98Q001, Issue 7, Page 9 / 9 
+If the procedure described above is not followed, responsibility of possible damages and 
+malfunctions caused by the lubricating oil change should always be agreed between the 
+oil company and customer. 
+Environmental aspects and handling 
+Fresh lubricating oils normally contain no particular toxic hazard, but all lubricants should 
+always be handled with great care. Used lubricating oils may contain significant amounts 
+of harmful metal and PAH (Poly-Aromatic Hydrocarbon) compounds. Avoid prolonged or 
+repetitive contact with the skin and breathing of oil fumes. Prevent any risk of splashing 
+and keep away from heat, ignition sources and oxidising agents. Risk of long-term 
+contamination of the soil and the ground water. Take appropriate measures  to prevent 
+water and soil contamination. 
+Store in tight and leak proof containers protected from water and condensation. Avoid 
+increased temperatures and large temperature fluctuations. 
+Contact  
+For services, spare parts and/or tools, please contact your nearest Wärtsilä 
+representative or log in to Wärtsilä Online: www.wartsila.com/wartsila-online 
+If you do not have the contact details at hand, please follow the link: 
+www.wartsila.com/contact 
+Technical support 
+If technical support is needed, please create a Technical Support Request for further 
+assistance. When creating the request, please: 
+• Specify the service bulletin number WT98Q001 in the subject field. 
+• Write the comments or questions in the description field. 
+• Attach photos if possible. 
+Customers using Wärtsilä Online can create the r equest directly in the system. 
+Customers not connected to Wärtsilä Online, please contact your nearest Wärtsilä  
+representative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2024 Wärtsilä Finland Oy – All rights reserved 
+No part of this publication may be reproduced or copied in any form or by any means (electronic, mechanical, graphic, photocopying, recording, 
+taping or other information retrieval systems) without the prior written permission of the copyright h older. Wärtsilä Finland Oy makes no 
+representation, warranty (express or implied) in this publication and assumes no responsibility for the correctness, errors o r omissions for 
+information contained herein. Information in this publication is subject to change without notice. Wärtsilä does not assume any liability for the 
+consequences of the owner’s/operator’s actions, inactions, and/or decisions made or based upon the information provided herein. 
+Unless otherwise expressly set forth, no recommendation contained in this document or any of its appendices is to be construed as provided 
+due to a defect of the product, but merely as an improvement of the product and/or the maintenance procedures relating thereto. Any actions 
+by the owner/operator as a result of the recommendations are not covered under any warranty provided by Wärtsilä and such act ions will 
+thus be at the owners/operators own cost and expense. 
+NO LIABILITY WHETHER DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL, IS ASSUMED WITH RESPECT TO THE 
+INFORMATION CONTAINED HEREIN. THIS PUBLICATION IS CONFIDENTIAL AND INTENDED FOR INFORMATION PURPOSES 
+ONLY. 
+ 

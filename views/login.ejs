@@ -1,0 +1,19 @@
+﻿<%- include("partials/header", { title: "Resultados Análisis de Aceite Centrales Wärtsilä", flash: flash }) %>
+
+<section class="auth-shell">
+  <article class="auth-brand">
+    <h1>Resultados Análisis de Aceite Centrales Wärtsilä.</h1>
+    <p>Portal para consultar resultados de muestras por equipo con tendencias y límites operativos.</p>
+  </article>
+
+  <article class="card auth-card">
+    <h2>Acceso a la plataforma</h2>
+    <p class="subtitle">No requiere registro ni login.</p>
+
+    <form method="GET" action="/dashboard" class="form-grid">
+      <button type="submit">Acceder a la plataforma</button>
+    </form>
+  </article>
+</section>
+
+<%- include("partials/footer") %>

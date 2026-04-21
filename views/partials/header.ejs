@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="container">
+    <section class="brand-bar">
+      <a href="/dashboard" class="brand-secco" aria-label="Secco">
+        <img src="/assets/secco-logo.svg" alt="Secco logo">
+      </a>
+      <div class="brand-divider" aria-hidden="true"></div>
+      <a href="https://www.wartsila.com" target="_blank" rel="noreferrer" class="brand-wartsila" aria-label="Wartsila">
+        <img src="/assets/wartsila-logo.png" alt="Wartsila logo">
+      </a>
+    </section>
+
+    <% if (flash) { %>
+      <div class="flash <%= flash.type %>"><%= flash.message %></div>
+    <% } %>
