@@ -202,6 +202,7 @@
             <th>Lectura</th>
             <th>Compartimento</th>
             <th>Equipo</th>
+            <th>Serie</th>
             <th>Acción</th>
           </tr>
         </thead>
@@ -217,6 +218,7 @@
               <td><%= item.readingStatus === true ? "Leido" : item.readingStatus === false ? "No leido" : "-" %></td>
               <td><%= item.compartment?.name || item.collectionData?.compartmentName || "-" %></td>
               <td><%= item.equipment?.model || "-" %></td>
+              <td><%= item.equipment?.serial || item.equipment?.chassiSerie || item.equipment?.serialNumber || "-" %></td>
               <td>
                 <form method="POST" action="/samples/view">
                   <input type="hidden" name="sampleNumber" value="<%= item.sampleNumber %>">
