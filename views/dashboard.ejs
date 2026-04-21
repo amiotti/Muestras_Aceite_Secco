@@ -29,8 +29,8 @@
 
     <label class="full-width">
       Equipo
-      <select id="equipmentId" name="equipmentId" required>
-        <option value="">Seleccionar equipo...</option>
+      <select id="equipmentId" name="equipmentId">
+        <option value="">Todos los equipos del área seleccionada</option>
         <% equipmentOptions.forEach(function (item) { %>
           <option value="<%= item.id %>" data-area="<%= item.area %>" <%= String(form.equipmentId) === String(item.id) ? "selected" : "" %>><%= item.label %></option>
         <% }); %>
@@ -213,7 +213,7 @@
                 <% const status = item.validResult?.resultStatus || item.result || "UNKNOWN"; %>
                 <span class="status-pill <%= status.toLowerCase() %>"><%= status %></span>
               </td>
-              <td><%= item.resultDate || "-" %></td>
+              <td><%= formatDisplayDate(item.resultDate) %></td>
               <td><%= item.readingStatus === true ? "Leido" : item.readingStatus === false ? "No leido" : "-" %></td>
               <td><%= item.compartment?.name || item.collectionData?.compartmentName || "-" %></td>
               <td><%= item.equipment?.model || "-" %></td>

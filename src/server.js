@@ -397,6 +397,25 @@ function formatDateLike(value) {
   return raw;
 }
 
+function formatDateDayMonthYear(value) {
+  const raw = cleanValue(value);
+  if (!raw) {
+    return "-";
+  }
+
+  const isoMatch = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (isoMatch) {
+    return `${isoMatch[3]}/${isoMatch[2]}/${isoMatch[1]}`;
+  }
+
+  const localMatch = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+  if (localMatch) {
+    return `${localMatch[1]}/${localMatch[2]}/${localMatch[3]}`;
+  }
+
+  return raw;
+}
+
 function buildHistoryComparisonTable(historySamples) {
   const samples = Array.isArray(historySamples) ? historySamples.slice(0, 10) : [];
   return samples.map((sample) => {
@@ -904,41 +923,48 @@ async function loadAllEquipment(req, s360Client) {
 
 function buildSampleSearchFilter(req) {
   const filters = getDashboardFilters(req);
-
-  if (!filters.equipmentId) {
-    throw new Error("Selecciona un equipo para buscar las muestras.");
-  }
-
-  const equipmentId = Number.parseInt(filters.equipmentId, 10);
-  if (!Number.isInteger(equipmentId) || equipmentId <= 0) {
-    throw new Error("El equipo seleccionado no es valido.");
-  }
-  const availableEquipmentIds = Array.isArray(req.session.equipmentOptions)
-    ? req.session.equipmentOptions.map((item) => String(item.id))
+  const sessionEquipmentOptions = Array.isArray(req.session.equipmentOptions)
+    ? req.session.equipmentOptions
     : [];
-  if (!availableEquipmentIds.includes(String(equipmentId))) {
-    throw new Error(
-      "El equipo seleccionado no pertenece al listado habilitado (Perez, Cañada o Villa Ocampo)."
+  const selectedAreaSet = Array.isArray(filters.areas) && filters.areas.length > 0
+    ? new Set(filters.areas.map((area) => normalizeText(area)))
+    : null;
+
+  let equipmentIds = [];
+  const equipmentId = Number.parseInt(filters.equipmentId, 10);
+
+  if (Number.isInteger(equipmentId) && equipmentId > 0) {
+    const selectedEquipment = sessionEquipmentOptions.find(
+      (item) => String(item.id) === String(equipmentId)
     );
-  }
-  if (Array.isArray(filters.areas) && filters.areas.length > 0) {
-    const selectedEquipment = Array.isArray(req.session.equipmentOptions)
-      ? req.session.equipmentOptions.find((item) => String(item.id) === String(equipmentId))
-      : null;
-    const selectedAreaSet = new Set(filters.areas.map((area) => normalizeText(area)));
+    if (!selectedEquipment) {
+      throw new Error(
+        "El equipo seleccionado no pertenece al listado habilitado (Perez, Cañada o Villa Ocampo)."
+      );
+    }
     if (
-      !selectedEquipment ||
+      selectedAreaSet &&
       !selectedAreaSet.has(normalizeText(selectedEquipment.area))
     ) {
       throw new Error("Selecciona un equipo que pertenezca a una de las áreas elegidas.");
     }
+    equipmentIds = [equipmentId];
+  } else if (selectedAreaSet) {
+    equipmentIds = sessionEquipmentOptions
+      .filter((item) => selectedAreaSet.has(normalizeText(item.area)))
+      .map((item) => Number.parseInt(item.id, 10))
+      .filter((id) => Number.isInteger(id) && id > 0);
+  }
+
+  if (equipmentIds.length === 0) {
+    throw new Error("Selecciona un área o un equipo para buscar las muestras.");
   }
 
   const page = parsePositiveInt(filters.page, 1, { min: 1 });
   const pageSize = parsePositiveInt(filters.pageSize, 20, { min: 1, max: 50 });
 
   const payload = {
-    equipmentIds: [equipmentId],
+    equipmentIds,
     offset: (page - 1) * pageSize,
     max: pageSize,
     order: "resultDate",
@@ -1053,6 +1079,7 @@ function renderDashboard(req, res, data = {}) {
       getLimitRule(operationMode, section, key)?.label || "N/I",
     overLimit: (section, key, value) =>
       isValueOverLimit(operationMode, section, key, value),
+    formatDisplayDate: (value) => formatDateDayMonthYear(value),
     flash: data.flash || res.locals.flash,
   });
 }
