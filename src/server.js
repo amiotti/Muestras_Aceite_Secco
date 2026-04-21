@@ -713,7 +713,12 @@ function resolveS360Config(req) {
 
 function createS360ClientFromSession(req) {
   if (!req.session.s360Config) {
-    throw new Error("Primero tenes que conectarte a S360.");
+    const autoConfig = getAutomaticS360Config();
+    if (!autoConfig) {
+      throw new Error("No hay configuración automática de S360 disponible.");
+    }
+    req.session.s360Config = autoConfig;
+    delete req.session.s360Token;
   }
 
   return new S360Client({
@@ -1170,6 +1175,7 @@ app.post("/samples/view", requireAuth, async (req, res) => {
   }
 
   try {
+    await ensureEquipmentLoaded(req);
     const s360Client = createS360ClientFromSession(req);
 
     const sampleDetail = await executeWithTokenRetry(req, s360Client, (token) =>
@@ -1227,6 +1233,7 @@ app.get("/samples/:sampleNumber/pdf", requireAuth, async (req, res) => {
   }
 
   try {
+    await ensureEquipmentLoaded(req);
     const s360Client = createS360ClientFromSession(req);
     const pdfBuffer = await executeWithTokenRetry(req, s360Client, (token) =>
       s360Client.viewSampleResultPdf({
